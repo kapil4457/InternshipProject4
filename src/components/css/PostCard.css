@@ -1,0 +1,48 @@
+.postCardcontainer {
+	width: 90%;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+	height: 30vh;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	position: relative;
+	box-shadow: 0.3pc 0.3pc 0.5pc gray;
+	border-radius: 5px;
+}
+
+.postCardcontainer > div {
+	overflow: hidden;
+}
+.title,
+.userId {
+	width: 100%;
+	text-align: left;
+	font-size: 1.1rem;
+}
+
+.title > b,
+.userId > b {
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+.btn {
+	position: absolute;
+	bottom: 1rem;
+	left: 20%;
+}
+
+.btn > button {
+	width: 10rem;
+	height: 2rem;
+	border: none;
+	outline: none;
+	background-color: rgba(240, 172, 18, 0.8);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
